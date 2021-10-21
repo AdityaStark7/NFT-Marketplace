@@ -83,14 +83,14 @@ export default function CreateItem() {
   return (
     <div
       style={{
-        overflow: "hidden",
         backgroundColor: "#20bf55",
         backgroundImage: " linear-gradient(315deg, #20bf55 0%, #01baef 74%)",
-        height: "81.5vh",
+        minHeight: "100%",
+        height: "81.5vh"
       }}
     >
       <Particles />
-      <div className="flex justify-center" style = {{zIndex:"1"}}> 
+      <div className="flex justify-center" style = {{zIndex:"100"}}> 
         <div className="w-1/2 flex flex-col pb-12">
           <input
             placeholder="Asset Name"

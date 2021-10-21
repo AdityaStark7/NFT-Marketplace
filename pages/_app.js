@@ -40,6 +40,11 @@ function Marketplace({ Component, pageProps }) {
               Predict Quality of Crops
             </a>
           </Link>
+          <Link href="/news">
+            <a className="mr-6 text-gray-500">
+              Agro News
+            </a>
+          </Link>
         </div>
       </nav>
       <Component {...pageProps} />

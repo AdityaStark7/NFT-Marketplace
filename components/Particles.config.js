@@ -3,7 +3,7 @@ import Particles from "react-particles-js";
 
 const ParticlesConfig = () => {
   return (
-    <div style = {{position:"absolute" , zIndex:"0"}}>
+    <div style = {{position:"absolute" , zIndex:"-1"}}>
       <Particles
         height="81vh"
         width="90vw"
